@@ -14,3 +14,4 @@ host-suffix, ddrk.me, direct
 host, download.maxmind.com, proxy
 host, safebrowsing.urlsec.qq.com, reject
 host-suffix, comments.app, proxy
+host-suffix, coda.io, proxy
