@@ -1,0 +1,16 @@
+host-suffix, nei.st, proxy
+host-suffix, freemdict.com, direct
+host-suffix, waitbutwhy.com, proxy
+host-suffix, deepl.com, proxy
+host-suffix, uxcoffee.com, direct
+;荒野乱斗
+host, game.brawlstarsgame.com, direct
+host, inbox.brawlstars.com, direct
+
+host-suffix, vsco.co, direct
+host-suffix, fulibus.net, direct
+host-suffix, pocketcasts.com, proxy
+host-suffix, ddrk.me, direct
+host, download.maxmind.com, proxy
+host, safebrowsing.urlsec.qq.com, reject
+host-suffix, comments.app, proxy
