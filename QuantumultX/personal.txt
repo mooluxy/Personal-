@@ -1,17 +1,22 @@
-host-suffix, nei.st, proxy
-host-suffix, freemdict.com, direct
+# 国外网站
+host-suffix, vsco.co, direct
 host-suffix, waitbutwhy.com, proxy
 host-suffix, deepl.com, proxy
-host-suffix, uxcoffee.com, direct
-;荒野乱斗
-host, game.brawlstarsgame.com, direct
-host, inbox.brawlstars.com, direct
-
-host-suffix, vsco.co, direct
-host-suffix, fulibus.net, direct
 host-suffix, pocketcasts.com, proxy
-host-suffix, ddrk.me, direct
 host, download.maxmind.com, proxy
-host, safebrowsing.urlsec.qq.com, reject
 host-suffix, comments.app, proxy
 host-suffix, coda.io, proxy
+
+# 国内代理网站
+host-suffix, nei.st, proxy
+host-suffix, tingtalk.me, proxy
+
+# 国内直连网站
+host, safebrowsing.urlsec.qq.com, reject
+host-suffix, ddrk.me, direct
+host-suffix, freemdict.com, direct
+host-suffix, wangbase.com, direct
+host-suffix, dashengpan.com, direct
+host-suffix, ruanyifeng.com, direct
+host-suffix, fulibus.net, direct
+host-suffix, uxcoffee.com, direct
