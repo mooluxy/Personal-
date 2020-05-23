@@ -10,6 +10,7 @@ host-suffix, coda.io, proxy
 # 国内代理网站
 host-suffix, nei.st, proxy
 host-suffix, tingtalk.me, proxy
+host-suffix, uukanshu.com, proxy
 
 # 国内直连网站
 host, safebrowsing.urlsec.qq.com, reject
