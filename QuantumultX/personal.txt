@@ -21,3 +21,5 @@ host-suffix, dashengpan.com, direct
 host-suffix, ruanyifeng.com, direct
 host-suffix, fulibus.net, direct
 host-suffix, uxcoffee.com, direct
+host-suffix, aixdzs.com, direct
+host-suffix, biquge5200.com, direct
