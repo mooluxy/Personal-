@@ -1,16 +1,19 @@
 # 国外网站
-host-suffix, vsco.co, direct
 host-suffix, waitbutwhy.com, proxy
 host-suffix, deepl.com, proxy
 host-suffix, pocketcasts.com, proxy
 host, download.maxmind.com, proxy
 host-suffix, comments.app, proxy
 host-suffix, coda.io, proxy
+host-suffix, calm.com, proxy
+host-suffix, wikisource.org, proxy
 
 # 国内代理网站
 host-suffix, nei.st, proxy
 host-suffix, tingtalk.me, proxy
 host-suffix, uukanshu.com, proxy
+host-suffix, yitianshijie.net, proxy
+host-suffix, docs.rsshub.app, proxy
 
 # 国内直连网站
 host, safebrowsing.urlsec.qq.com, reject
