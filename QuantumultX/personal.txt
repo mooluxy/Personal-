@@ -1,4 +1,5 @@
 # 国外网站
+host-suffix, liadm.com, reject
 host-suffix, waitbutwhy.com, proxy
 host-suffix, deepl.com, proxy
 host-suffix, pocketcasts.com, proxy
@@ -24,5 +25,7 @@ host-suffix, dashengpan.com, direct
 host-suffix, ruanyifeng.com, direct
 host-suffix, fulibus.net, direct
 host-suffix, uxcoffee.com, direct
+host-suffix, mls-cdn.com, direct
 host-suffix, aixdzs.com, direct
 host-suffix, biquge5200.com, direct
+host-suffix, wenxuemi6.com, direct
