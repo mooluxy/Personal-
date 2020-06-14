@@ -1,5 +1,6 @@
 # 国外网站
 host-suffix, liadm.com, reject
+host-suffix, appcenter.ms, direct
 host-suffix, waitbutwhy.com, proxy
 host-suffix, deepl.com, proxy
 host-suffix, pocketcasts.com, proxy
