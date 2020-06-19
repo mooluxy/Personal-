@@ -9,6 +9,8 @@ host-suffix, comments.app, proxy
 host-suffix, coda.io, proxy
 host-suffix, calm.com, proxy
 host-suffix, wikisource.org, proxy
+#去掉YouTube++底部广告
+host-suffix, ehg-youtube.hitbox.com, reject
 
 # 国内代理网站
 host-suffix, nei.st, proxy
@@ -42,3 +44,4 @@ ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 100.64.0.0/10, direct
 ip-cidr, 182.254.116.0/24, direct
+geoip, cn, direct
