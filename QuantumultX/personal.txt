@@ -9,6 +9,7 @@ host-suffix, comments.app, proxy
 host-suffix, coda.io, proxy
 host-suffix, calm.com, proxy
 host-suffix, wikisource.org, proxy
+host-suffix, spotifycdn.com, proxy
 #去掉YouTube++底部广告
 host-suffix, ehg-youtube.hitbox.com, reject
 
@@ -36,6 +37,8 @@ host-suffix, sohu.com-v-sohu.com, direct
 host-suffix, youku.com-iqiyi.net, direct
 host-suffix, mintehao.com, direct
 host-suffix, 1090ys1.com, direct
+host-suffix, xsbiquge.com, direct
+host-suffix, bxwxorg.com, direct
 
 ip-cidr, 224.0.0.0/24, direct
 ip-cidr, 10.0.0.0/8, direct
