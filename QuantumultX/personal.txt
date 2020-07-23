@@ -1,6 +1,7 @@
+# 当使用 [Final，Proxy] 模式时，仅需要添加直连规则。
 # 国外网站
 host-suffix, liadm.com, reject
-host-suffix, appcenter.ms, direct
+host-suffix, appcenter.ms, proxy
 host-suffix, waitbutwhy.com, proxy
 host-suffix, deepl.com, proxy
 host-suffix, pocketcasts.com, proxy
@@ -10,8 +11,6 @@ host-suffix, coda.io, proxy
 host-suffix, calm.com, proxy
 host-suffix, wikisource.org, proxy
 host-suffix, spotifycdn.com, proxy
-#去掉YouTube++底部广告
-host-suffix, ehg-youtube.hitbox.com, reject
 
 # 国内代理网站
 host-suffix, nei.st, proxy
@@ -28,6 +27,7 @@ host-suffix, wangbase.com, direct
 host-suffix, dashengpan.com, direct
 host-suffix, ruanyifeng.com, direct
 host-suffix, fulibus.net, direct
+host-suffix, fuliba2020.net, direct
 host-suffix, uxcoffee.com, direct
 host-suffix, mls-cdn.com, direct
 host-suffix, aixdzs.com, direct
