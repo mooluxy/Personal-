@@ -1,44 +1,44 @@
 # 当使用 [Final，Proxy] 模式时，仅需要添加直连规则。
 # 国外网站
-host-suffix, liadm.com, reject
-host-suffix, appcenter.ms, proxy
-host-suffix, waitbutwhy.com, proxy
-host-suffix, deepl.com, proxy
-host-suffix, pocketcasts.com, proxy
-host, download.maxmind.com, proxy
-host-suffix, comments.app, proxy
-host-suffix, coda.io, proxy
-host-suffix, calm.com, proxy
-host-suffix, wikisource.org, proxy
-host-suffix, spotifycdn.com, proxy
+DOMAIN-SUFFIX, liadm.com, reject
+DOMAIN-SUFFIX, appcenter.ms, proxy
+DOMAIN-SUFFIX, waitbutwhy.com, proxy
+DOMAIN-SUFFIX, deepl.com, proxy
+DOMAIN-SUFFIX, pocketcasts.com, proxy
+DOMAIN, download.maxmind.com, proxy
+DOMAIN-SUFFIX, comments.app, proxy
+DOMAIN-SUFFIX, coda.io, proxy
+DOMAIN-SUFFIX, calm.com, proxy
+DOMAIN-SUFFIX, wikisource.org, proxy
+DOMAIN-SUFFIX, spotifycdn.com, proxy
 
 # 国内代理网站
-host-suffix, nei.st, proxy
-host-suffix, tingtalk.me, proxy
-host-suffix, uukanshu.com, proxy
-host-suffix, yitianshijie.net, proxy
-host-suffix, docs.rsshub.app, proxy
+DOMAIN-SUFFIX, nei.st, proxy
+DOMAIN-SUFFIX, tingtalk.me, proxy
+DOMAIN-SUFFIX, uukanshu.com, proxy
+DOMAIN-SUFFIX, yitianshijie.net, proxy
+DOMAIN-SUFFIX, docs.rsshub.app, proxy
 
 # 国内直连网站
-host, safebrowsing.urlsec.qq.com, reject
-host-suffix, ddrk.me, direct
-host-suffix, freemdict.com, direct
-host-suffix, wangbase.com, direct
-host-suffix, dashengpan.com, direct
-host-suffix, ruanyifeng.com, direct
-host-suffix, fulibus.net, direct
-host-suffix, fuliba2020.net, direct
-host-suffix, uxcoffee.com, direct
-host-suffix, mls-cdn.com, direct
-host-suffix, aixdzs.com, direct
-host-suffix, biquge5200.com, direct
-host-suffix, wenxuemi6.com, direct
-host-suffix, sohu.com-v-sohu.com, direct
-host-suffix, youku.com-iqiyi.net, direct
-host-suffix, mintehao.com, direct
-host-suffix, 1090ys1.com, direct
-host-suffix, xsbiquge.com, direct
-host-suffix, bxwxorg.com, direct
+DOMAIN, safebrowsing.urlsec.qq.com, reject
+DOMAIN-SUFFIX, ddrk.me, direct
+DOMAIN-SUFFIX, freemdict.com, direct
+DOMAIN-SUFFIX, wangbase.com, direct
+DOMAIN-SUFFIX, dashengpan.com, direct
+DOMAIN-SUFFIX, ruanyifeng.com, direct
+DOMAIN-SUFFIX, fulibus.net, direct
+DOMAIN-SUFFIX, fuliba2020.net, direct
+DOMAIN-SUFFIX, uxcoffee.com, direct
+DOMAIN-SUFFIX, mls-cdn.com, direct
+DOMAIN-SUFFIX, aixdzs.com, direct
+DOMAIN-SUFFIX, biquge5200.com, direct
+DOMAIN-SUFFIX, wenxuemi6.com, direct
+DOMAIN-SUFFIX, sohu.com-v-sohu.com, direct
+DOMAIN-SUFFIX, youku.com-iqiyi.net, direct
+DOMAIN-SUFFIX, mintehao.com, direct
+DOMAIN-SUFFIX, 1090ys1.com, direct
+DOMAIN-SUFFIX, xsbiquge.com, direct
+DOMAIN-SUFFIX, bxwxorg.com, direct
 
 ip-cidr, 224.0.0.0/24, direct
 ip-cidr, 10.0.0.0/8, direct
