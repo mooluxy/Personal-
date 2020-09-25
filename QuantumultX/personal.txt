@@ -39,9 +39,7 @@ DOMAIN-SUFFIX, mintehao.com, direct
 DOMAIN-SUFFIX, 1090ys1.com, direct
 DOMAIN-SUFFIX, xsbiquge.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
+DOMAIN-SUFFIX, dvdhd.me, direct
+DOMAIN-SUFFIX, 114sim.com, direct
+DOMAIN-SUFFIX, bxwxorg.com, direct
 
-ip-cidr, 224.0.0.0/24, direct
-ip-cidr, 10.0.0.0/8, direct
-ip-cidr, 192.168.0.0/16, direct
-ip-cidr, 100.64.0.0/10, direct
-ip-cidr, 182.254.116.0/24, direct
