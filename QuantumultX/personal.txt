@@ -28,6 +28,7 @@ DOMAIN-SUFFIX, dashengpan.com, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, fulibus.net, direct
 DOMAIN-SUFFIX, fuliba2020.net, direct
+DOMAIN-SUFFIX, haorenka.co, direct
 DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, mls-cdn.com, direct
 DOMAIN-SUFFIX, aixdzs.com, direct
