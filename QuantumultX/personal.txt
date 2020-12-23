@@ -13,17 +13,17 @@ DOMAIN-SUFFIX, wikisource.org, proxy
 DOMAIN-SUFFIX, spotifycdn.com, proxy
 
 # 国内代理网站
-DOMAIN-SUFFIX, nei.st, proxy
 DOMAIN-SUFFIX, tingtalk.me, proxy
 DOMAIN-SUFFIX, uukanshu.com, proxy
 DOMAIN-SUFFIX, yitianshijie.net, proxy
 DOMAIN-SUFFIX, docs.rsshub.app, proxy
+DOMAIN-SUFFIX, loli.net, proxy
+
 
 # 国内直连网站
 DOMAIN, safebrowsing.urlsec.qq.com, reject
 DOMAIN-SUFFIX, ddrk.me, direct
 DOMAIN-SUFFIX, freemdict.com, direct
-DOMAIN-SUFFIX, wangbase.com, direct
 DOMAIN-SUFFIX, dashengpan.com, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, fulibus.net, direct
