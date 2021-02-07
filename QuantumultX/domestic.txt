@@ -30,7 +30,6 @@ DOMAIN-SUFFIX, mintehao.com, direct
 DOMAIN-SUFFIX, 1090ys1.com, direct
 DOMAIN-SUFFIX, xsbiquge.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
-DOMAIN-SUFFIX, dvdhd.me, direct
 DOMAIN-SUFFIX, 114sim.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
 DOMAIN-SUFFIX, 952780.com, direct
