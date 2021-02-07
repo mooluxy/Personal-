@@ -1,0 +1,11 @@
+# 国外代理网站
+DOMAIN-SUFFIX, appcenter.ms, proxy
+DOMAIN-SUFFIX, waitbutwhy.com, proxy
+DOMAIN-SUFFIX, deepl.com, proxy
+DOMAIN-SUFFIX, pocketcasts.com, proxy
+DOMAIN, download.maxmind.com, proxy
+DOMAIN-SUFFIX, comments.app, proxy
+DOMAIN-SUFFIX, coda.io, proxy
+DOMAIN-SUFFIX, calm.com, proxy
+DOMAIN-SUFFIX, wikisource.org, proxy
+DOMAIN-SUFFIX, spotifycdn.com, proxy
