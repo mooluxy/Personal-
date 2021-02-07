@@ -1,16 +1,6 @@
 # 当使用 [Final，Proxy] 模式时，仅需要添加直连规则。
 # 国外网站
 DOMAIN-SUFFIX, liadm.com, reject
-DOMAIN-SUFFIX, appcenter.ms, proxy
-DOMAIN-SUFFIX, waitbutwhy.com, proxy
-DOMAIN-SUFFIX, deepl.com, proxy
-DOMAIN-SUFFIX, pocketcasts.com, proxy
-DOMAIN, download.maxmind.com, proxy
-DOMAIN-SUFFIX, comments.app, proxy
-DOMAIN-SUFFIX, coda.io, proxy
-DOMAIN-SUFFIX, calm.com, proxy
-DOMAIN-SUFFIX, wikisource.org, proxy
-DOMAIN-SUFFIX, spotifycdn.com, proxy
 
 # 国内代理网站
 DOMAIN-SUFFIX, tingtalk.me, proxy
@@ -44,6 +34,15 @@ DOMAIN-SUFFIX, dvdhd.me, direct
 DOMAIN-SUFFIX, 114sim.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
 DOMAIN-SUFFIX, 952780.com, direct
+
+# Apple 直连
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 17.0.0.0/8, direct
+ip-cidr, 100.64.0.0/10, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
 
 # 知乎去广告
 DOMAIN,118.89.204.198,REJECT
