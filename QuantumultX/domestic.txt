@@ -2,13 +2,10 @@
 # 国外网站
 DOMAIN-SUFFIX, liadm.com, reject
 
-# 国内代理网站
+# 国内特殊网站
 DOMAIN-SUFFIX, tingtalk.me, proxy
-DOMAIN-SUFFIX, uukanshu.com, proxy
-DOMAIN-SUFFIX, yitianshijie.net, proxy
-DOMAIN-SUFFIX, docs.rsshub.app, proxy
-DOMAIN-SUFFIX, loli.net, proxy
-
+DOMAIN-SUFFIX, yitianshijie.net, direct
+DOMAIN-SUFFIX, docs.rsshub.app, direct
 
 # 国内直连网站
 DOMAIN, safebrowsing.urlsec.qq.com, reject
@@ -23,7 +20,6 @@ DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, mls-cdn.com, direct
 DOMAIN-SUFFIX, aixdzs.com, direct
 DOMAIN-SUFFIX, biquge5200.com, direct
-DOMAIN-SUFFIX, wenxuemi6.com, direct
 DOMAIN-SUFFIX, sohu.com-v-sohu.com, direct
 DOMAIN-SUFFIX, youku.com-iqiyi.net, direct
 DOMAIN-SUFFIX, mintehao.com, direct
@@ -31,7 +27,6 @@ DOMAIN-SUFFIX, 1090ys1.com, direct
 DOMAIN-SUFFIX, xsbiquge.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
-DOMAIN-SUFFIX, bxwxorg.com, direct
 DOMAIN-SUFFIX, 952780.com, direct
 
 # Apple 直连
