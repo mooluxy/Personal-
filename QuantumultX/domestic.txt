@@ -1,6 +1,10 @@
 # 当使用 [Final，Proxy] 模式时，仅需要添加直连规则。
 # 国外网站
-DOMAIN-SUFFIX, liadm.com, reject
+#DOMAIN-SUFFIX, liadm.com, reject
+#DOMAIN, browser.sentry-cdn.com, reject
+#DOMAIN, api2.amplitude.com, reject
+#DOMAIN, intercom.io, reject
+#DOMAIN, api.github.com, reject
 
 # 国内特殊网站
 DOMAIN-SUFFIX, tingtalk.me, proxy
@@ -39,7 +43,7 @@ ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 
 #绕过企业证书过期
-host, ocsp.apple.com, proxy
+DOMAIN, ocsp.apple.com, proxy
 
 # 知乎去广告
 DOMAIN,118.89.204.198,REJECT
