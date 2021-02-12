@@ -5,6 +5,9 @@
 #DOMAIN, api2.amplitude.com, reject
 #DOMAIN, intercom.io, reject
 #DOMAIN, api.github.com, reject
+DOMAIN-SUFFIX,branch.io, reject
+DOMAIN-SUFFIX,analytics.twitter.com, reject
+
 
 # 国内特殊网站
 DOMAIN-SUFFIX, tingtalk.me, proxy
