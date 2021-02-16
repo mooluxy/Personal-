@@ -1,42 +1,47 @@
-# 当使用 [Final，Proxy] 模式时，仅需要添加直连规则。
-# 国外网站
+# Privary
 #DOMAIN-SUFFIX, liadm.com, reject
-#DOMAIN, browser.sentry-cdn.com, reject
-#DOMAIN, api2.amplitude.com, reject
-#DOMAIN, intercom.io, reject
+#DOMAIN-SUFFIX, sentry-cdn.com, reject
+#DOMAIN-SUFFIX, amplitude.com, reject
+#DOMAIN-SUFFIX, intercom.io, reject
 #DOMAIN, api.github.com, reject
 DOMAIN-SUFFIX,branch.io, reject
 DOMAIN-SUFFIX,analytics.twitter.com, reject
+DOMAIN, safebrowsing.urlsec.qq.com, reject
 
-
-# 国内特殊网站
+# Special
 DOMAIN-SUFFIX, tingtalk.me, proxy
+
+# Domestic
+## Video
+DOMAIN-SUFFIX, ddrk.me, direct
+DOMAIN-SUFFIX, mls-cdn.com, direct
+DOMAIN-SUFFIX, sohu.com-v-sohu.com, direct
+DOMAIN-SUFFIX, youku.com-iqiyi.net, direct
+DOMAIN-SUFFIX, 1090ys1.com, direct
+DOMAIN-SUFFIX, 1090ys2.com, direct
+DOMAIN-SUFFIX, zxzj.me, direct
+DOMAIN-SUFFIX, ctyunapi.cn, direct
+DOMAIN-SUFFIX, doubanio.com, direct
+DOMAIN-SUFFIX, 952780.com, direct
+## Fiction
+DOMAIN-SUFFIX, aixdzs.com, direct
+DOMAIN-SUFFIX, biquge5200.com, direct
+DOMAIN-SUFFIX, xsbiquge.com, direct
+DOMAIN-SUFFIX, bxwxorg.com, direct
+## Other
 DOMAIN-SUFFIX, yitianshijie.net, direct
 DOMAIN-SUFFIX, docs.rsshub.app, direct
-
-# 国内直连网站
-DOMAIN, safebrowsing.urlsec.qq.com, reject
-DOMAIN-SUFFIX, ddrk.me, direct
-DOMAIN-SUFFIX, freemdict.com, direct
-DOMAIN-SUFFIX, dashengpan.com, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
+DOMAIN-SUFFIX, uxcoffee.com, direct
+DOMAIN-SUFFIX, freemdict.com, direct
 DOMAIN-SUFFIX, fulibus.net, direct
 DOMAIN-SUFFIX, fuliba2020.net, direct
 DOMAIN-SUFFIX, haorenka.co, direct
-DOMAIN-SUFFIX, uxcoffee.com, direct
-DOMAIN-SUFFIX, mls-cdn.com, direct
-DOMAIN-SUFFIX, aixdzs.com, direct
-DOMAIN-SUFFIX, biquge5200.com, direct
-DOMAIN-SUFFIX, sohu.com-v-sohu.com, direct
-DOMAIN-SUFFIX, youku.com-iqiyi.net, direct
-DOMAIN-SUFFIX, mintehao.com, direct
-DOMAIN-SUFFIX, 1090ys1.com, direct
-DOMAIN-SUFFIX, xsbiquge.com, direct
-DOMAIN-SUFFIX, bxwxorg.com, direct
+DOMAIN-SUFFIX, dashengpan.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
-DOMAIN-SUFFIX, 952780.com, direct
+#DOMAIN-SUFFIX, mintehao.com, direct
 
-# Apple 直连
+# Apple 
 ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 17.0.0.0/8, direct
 ip-cidr, 100.64.0.0/10, direct
@@ -44,11 +49,9 @@ ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
+DOMAIN, ocsp.apple.com, reject
 
-#绕过企业证书过期
-DOMAIN, ocsp.apple.com, proxy
-
-# 知乎去广告
+# Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
 DOMAIN-SUFFIX,118.89.204.198,REJECT
 DOMAIN-KEYWORD,118.89.204.198,REJECT
