@@ -8,9 +8,6 @@ DOMAIN-SUFFIX,branch.io, reject
 DOMAIN-SUFFIX,analytics.twitter.com, reject
 DOMAIN, safebrowsing.urlsec.qq.com, reject
 
-# Special
-DOMAIN-SUFFIX, tingtalk.me, proxy
-
 # Domestic
 ## Video
 DOMAIN-SUFFIX, ddrk.me, direct
@@ -23,11 +20,13 @@ DOMAIN-SUFFIX, zxzj.me, direct
 DOMAIN-SUFFIX, ctyunapi.cn, direct
 DOMAIN-SUFFIX, doubanio.com, direct
 DOMAIN-SUFFIX, 952780.com, direct
+
 ## Fiction
 DOMAIN-SUFFIX, aixdzs.com, direct
 DOMAIN-SUFFIX, biquge5200.com, direct
 DOMAIN-SUFFIX, xsbiquge.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
+
 ## Other
 DOMAIN-SUFFIX, yitianshijie.net, direct
 DOMAIN-SUFFIX, docs.rsshub.app, direct
@@ -40,6 +39,10 @@ DOMAIN-SUFFIX, haorenka.co, direct
 DOMAIN-SUFFIX, dashengpan.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
 #DOMAIN-SUFFIX, mintehao.com, direct
+
+## Special
+DOMAIN-SUFFIX, tingtalk.me, proxy
+
 
 # Apple 
 ip-cidr, 10.0.0.0/8, direct
