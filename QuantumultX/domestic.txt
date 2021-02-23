@@ -12,14 +12,23 @@ DOMAIN, safebrowsing.urlsec.qq.com, reject
 ## Video
 DOMAIN-SUFFIX, ddrk.me, direct
 DOMAIN-SUFFIX, mls-cdn.com, direct
-DOMAIN-SUFFIX, sohu.com-v-sohu.com, direct
-DOMAIN-SUFFIX, youku.com-iqiyi.net, direct
+host-keyword, sohu, direct
+host-keyword, youku, direct
+host-keyword, iqiyi, direct
+host-keyword, bilibili, direct
+host-keyword, 163, direct
+host-keyword, pptv, direct
 DOMAIN-SUFFIX, 1090ys1.com, direct
 DOMAIN-SUFFIX, 1090ys2.com, direct
 DOMAIN-SUFFIX, zxzj.me, direct
 DOMAIN-SUFFIX, ctyunapi.cn, direct
 DOMAIN-SUFFIX, doubanio.com, direct
 DOMAIN-SUFFIX, 952780.com, direct
+DOMAIN-SUFFIX, yongjiu6.com, direct
+DOMAIN-SUFFIX, ziboshishen.com, direct
+DOMAIN-SUFFIX, sinaimg.cn, direct
+DOMAIN-SUFFIX, pstatp.com, direct
+DOMAIN-SUFFIX, newqiyu.com, direct
 
 ## Fiction
 DOMAIN-SUFFIX, aixdzs.com, direct
