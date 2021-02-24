@@ -44,6 +44,7 @@ DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, freemdict.com, direct
 DOMAIN-SUFFIX, fulibus.net, direct
 DOMAIN-SUFFIX, fuliba2020.net, direct
+DOMAIN-SUFFIX, banacg.com, direct
 DOMAIN-SUFFIX, haorenka.co, direct
 DOMAIN-SUFFIX, dashengpan.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
