@@ -23,6 +23,8 @@ DOMAIN-SUFFIX, ctyunapi.cn, direct
 DOMAIN-SUFFIX, doubanio.com, direct
 DOMAIN-SUFFIX, 952780.com, direct
 DOMAIN-SUFFIX, yongjiu6.com, direct
+DOMAIN-SUFFIX, yongjiu8.com, direct
+DOMAIN-SUFFIX, yongjiujiexi.com, direct
 DOMAIN-SUFFIX, ziboshishen.com, direct
 DOMAIN-SUFFIX, sinaimg.cn, direct
 DOMAIN-SUFFIX, pstatp.com, direct
