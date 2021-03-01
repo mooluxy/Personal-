@@ -4,8 +4,9 @@
 ###DOMAIN-SUFFIX, amplitude.com, reject
 ###DOMAIN-SUFFIX, intercom.io, reject
 ###DOMAIN, api.github.com, reject
-DOMAIN-SUFFIX,branch.io, reject
-DOMAIN-SUFFIX,analytics.twitter.com, reject
+DOMAIN-SUFFIX, branch.io, reject
+DOMAIN-SUFFIX, cnzz.com, reject
+DOMAIN-SUFFIX, analytics.twitter.com, reject
 DOMAIN, safebrowsing.urlsec.qq.com, reject
 
 # Domestic
@@ -52,7 +53,6 @@ DOMAIN-SUFFIX, pddpic.com, direct
 
 ## Special
 DOMAIN-SUFFIX, tingtalk.me, proxy
-
 
 # Apple 
 ip-cidr, 10.0.0.0/8, direct
