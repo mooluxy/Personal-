@@ -38,7 +38,6 @@ DOMAIN-SUFFIX, xsbiquge.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
 
 ## Other
-DOMAIN-SUFFIX, docs.rsshub.app, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, freemdict.com, direct
@@ -50,9 +49,6 @@ DOMAIN-SUFFIX, dashengpan.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
 ###DOMAIN-SUFFIX, mintehao.com, direct
 DOMAIN-SUFFIX, pddpic.com, direct
-
-## Special
-DOMAIN-SUFFIX, tingtalk.me, proxy
 
 # Apple 
 ip-cidr, 10.0.0.0/8, direct
