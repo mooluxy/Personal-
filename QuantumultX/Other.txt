@@ -9,3 +9,12 @@ DOMAIN-SUFFIX, coda.io, proxy
 DOMAIN-SUFFIX, calm.com, proxy
 DOMAIN-SUFFIX, wikisource.org, proxy
 DOMAIN-SUFFIX, spotifycdn.com, proxy
+
+#PUBG mobile
+host-suffix, qcloud.com, direct
+host-suffix, proximabeta.com, direct
+host-suffix, amsoveasea.com, direct
+host-suffix, igamecj.com, direct
+host-suffix, pubgmobile.com, direct
+host-suffix, tdatamaster.com, direct
+host-suffix, iqiyipic.com, proxy
