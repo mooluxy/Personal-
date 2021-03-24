@@ -8,6 +8,7 @@ DOMAIN-SUFFIX, branch.io, reject
 DOMAIN-SUFFIX, cnzz.com, reject
 DOMAIN-SUFFIX, analytics.twitter.com, reject
 DOMAIN, safebrowsing.urlsec.qq.com, reject
+DOMAIN, ocsp.sectigo.com, reject
 
 # Domestic
 ## Video
@@ -58,7 +59,7 @@ ip-cidr, 100.64.0.0/10, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
-DOMAIN, ocsp.apple.com, proxy
+DOMAIN, ocsp.apple.com, REJECT
 
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
