@@ -51,6 +51,14 @@ DOMAIN-SUFFIX, 114sim.com, direct
 ###DOMAIN-SUFFIX, mintehao.com, direct
 DOMAIN-SUFFIX, pddpic.com, direct
 
+#PUBG mobile
+host-suffix, qcloud.com, direct
+host-suffix, proximabeta.com, direct
+host-suffix, amsoveasea.com, direct
+host-suffix, igamecj.com, direct
+host-suffix, pubgmobile.com, direct
+host-suffix, tdatamaster.com, direct
+
 # Apple 
 ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 17.0.0.0/8, direct
