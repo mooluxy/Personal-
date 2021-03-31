@@ -18,3 +18,8 @@ host-suffix, igamecj.com, direct
 host-suffix, pubgmobile.com, direct
 host-suffix, tdatamaster.com, direct
 host-suffix, iqiyipic.com, proxy
+
+# LOL: Wild Rift
+host-suffix, riotcdn.net, proxy
+host-suffix, pvp.net, proxy
+host-suffix, riotgames.com, proxy
