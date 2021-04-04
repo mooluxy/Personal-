@@ -39,6 +39,7 @@ DOMAIN-SUFFIX, xsbiquge.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
 
 ## Other
+DOMAIN-SUFFIX, wechat.com, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, freemdict.com, direct
