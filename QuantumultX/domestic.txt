@@ -40,6 +40,7 @@ DOMAIN-SUFFIX, bxwxorg.com, direct
 
 ## Other
 DOMAIN-SUFFIX, wechat.com, direct
+DOMAIN-SUFFIX, pddpic.com, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, freemdict.com, direct
@@ -50,7 +51,7 @@ DOMAIN-SUFFIX, haorenka.co, direct
 DOMAIN-SUFFIX, dashengpan.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
 ###DOMAIN-SUFFIX, mintehao.com, direct
-DOMAIN-SUFFIX, pddpic.com, direct
+
 
 # Apple 
 ip-cidr, 10.0.0.0/8, direct
@@ -61,6 +62,10 @@ ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 DOMAIN, ocsp.apple.com, REJECT
+
+# Forest App
+host-suffix, seekrtech.com, direct
+host-suffix, forestapp.cc, direct
 
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
