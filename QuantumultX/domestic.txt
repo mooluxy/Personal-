@@ -64,8 +64,13 @@ ip-cidr, 224.0.0.0/24, direct
 DOMAIN, ocsp.apple.com, REJECT
 
 # Forest App
-host-suffix, seekrtech.com, direct
-host-suffix, forestapp.cc, direct
+DOMAIN-SUFFIX, seekrtech.com, direct
+DOMAIN-SUFFIX, forestapp.cc, direct
+
+# LOL: Wild Rift
+DOMAIN-SUFFIX, riotcdn.net, direct
+DOMAIN-SUFFIX, pvp.net, direct
+DOMAIN-SUFFIX, riotgames.com, direct
 
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
