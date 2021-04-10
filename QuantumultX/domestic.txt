@@ -70,8 +70,6 @@ USER-AGENT,WildRift*,direct
 DOMAIN-SUFFIX, riotcdn.net, direct
 DOMAIN-SUFFIX, pvp.net, direct
 DOMAIN-SUFFIX, riotgames.com, direct
-DOMAIN, 129.226.187.240, direct
-
 
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
