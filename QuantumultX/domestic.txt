@@ -32,7 +32,7 @@ DOMAIN-SUFFIX, sinaimg.cn, direct
 DOMAIN-SUFFIX, pstatp.com, direct
 DOMAIN-SUFFIX, newqiyu.com, direct
 
-## Fiction
+## Novel
 DOMAIN-SUFFIX, aixdzs.com, direct
 DOMAIN-SUFFIX, xsbiquge.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
@@ -50,12 +50,11 @@ DOMAIN-SUFFIX, dashengpan.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
 ###DOMAIN-SUFFIX, mintehao.com, direct
 
-
 # Apple 
 ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 17.0.0.0/8, direct
 ip-cidr, 100.64.0.0/10, direct
-# ip-cidr, 127.0.0.0/8, direct bitly, t.co
+#ip-cidr, 127.0.0.0/8, direct #bitly, t.co
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
@@ -64,12 +63,6 @@ DOMAIN, ocsp.apple.com, REJECT
 # Forest App
 DOMAIN-SUFFIX, seekrtech.com, direct
 DOMAIN-SUFFIX, forestapp.cc, direct
-
-# LOL: Wild Rift
-USER-AGENT,WildRift*,direct
-DOMAIN-SUFFIX, riotcdn.net, direct
-DOMAIN-SUFFIX, pvp.net, direct
-DOMAIN-SUFFIX, riotgames.com, direct
 
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
