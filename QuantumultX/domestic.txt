@@ -34,7 +34,6 @@ DOMAIN-SUFFIX, newqiyu.com, direct
 
 ## Fiction
 DOMAIN-SUFFIX, aixdzs.com, direct
-DOMAIN-SUFFIX, biquge5200.com, direct
 DOMAIN-SUFFIX, xsbiquge.com, direct
 DOMAIN-SUFFIX, bxwxorg.com, direct
 
@@ -44,7 +43,6 @@ DOMAIN-SUFFIX, pddpic.com, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, freemdict.com, direct
-DOMAIN-SUFFIX, fulibus.net, direct
 DOMAIN-SUFFIX, fuliba2020.net, direct
 DOMAIN-SUFFIX, banacg.com, direct
 DOMAIN-SUFFIX, haorenka.co, direct
@@ -71,6 +69,10 @@ DOMAIN-SUFFIX, forestapp.cc, direct
 DOMAIN-SUFFIX, riotcdn.net, direct
 DOMAIN-SUFFIX, pvp.net, direct
 DOMAIN-SUFFIX, riotgames.com, direct
+DOMAIN, 129.226.187.240, direct
+DOMAIN, 119.28.106.213, direct
+DOMAIN,119.28.71.207, direct
+DOMAIN,119.28.9.111, direct
 
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
