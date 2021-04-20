@@ -34,8 +34,6 @@ DOMAIN-SUFFIX, newqiyu.com, direct
 
 ## Novel
 DOMAIN-SUFFIX, aixdzs.com, direct
-DOMAIN-SUFFIX, xsbiquge.com, direct
-DOMAIN-SUFFIX, bxwxorg.com, direct
 
 ## Other
 DOMAIN-SUFFIX, wechat.com, direct
@@ -60,11 +58,7 @@ ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 ip6-cidr, fe80::/10, direct
 DOMAIN, ocsp.apple.com, REJECT
-
-
-# Forest App
-DOMAIN-SUFFIX, seekrtech.com, direct
-DOMAIN-SUFFIX, forestapp.cc, direct
+DOMAIN-KEYWORD, apple.com, direct
 
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
