@@ -4,6 +4,7 @@
 ###DOMAIN-SUFFIX, amplitude.com, reject
 ###DOMAIN-SUFFIX, intercom.io, reject
 ###DOMAIN, api.github.com, reject
+
 DOMAIN-SUFFIX, branch.io, reject
 DOMAIN-SUFFIX, cnzz.com, reject
 DOMAIN-SUFFIX, analytics.twitter.com, reject
@@ -12,25 +13,24 @@ DOMAIN, ocsp.sectigo.com, reject
 
 # Domestic
 ## Video
-DOMAIN-SUFFIX, ddrk.me, direct
-DOMAIN-SUFFIX, mls-cdn.com, direct
-host-keyword, sohu.com, direct
-host-keyword, youku.com, direct
-host-keyword, iqiyi.com, direct
-host-keyword, bilibili.com, direct
-host-keyword, pptv.com, direct
 DOMAIN-SUFFIX, 1090ys2.com, direct
 DOMAIN-SUFFIX, zxzj.me, direct
-DOMAIN-SUFFIX, ctyunapi.cn, direct
-DOMAIN-SUFFIX, doubanio.com, direct
-DOMAIN-SUFFIX, 952780.com, direct
-DOMAIN-SUFFIX, yongjiu6.com, direct
-DOMAIN-SUFFIX, yongjiu8.com, direct
-DOMAIN-SUFFIX, yongjiujiexi.com, direct
-DOMAIN-SUFFIX, ziboshishen.com, direct
-DOMAIN-SUFFIX, sinaimg.cn, direct
-DOMAIN-SUFFIX, pstatp.com, direct
-DOMAIN-SUFFIX, newqiyu.com, direct
+DOMAIN-SUFFIX, ddrk.me, direct
+DOMAIN-SUFFIX, lencr.org, direct
+
+#DOMAIN-SUFFIX, mls-cdn.com, direct
+#host-keyword, sohu.com, direct
+#host-keyword, youku.com, direct
+#host-keyword, iqiyi.com, direct
+#host-keyword, bilibili.com, direct
+#host-keyword, pptv.com, direct
+#DOMAIN-SUFFIX, ctyunapi.cn, direct
+#DOMAIN-SUFFIX, doubanio.com, direct
+#DOMAIN-SUFFIX, 952780.com, direct
+#DOMAIN-SUFFIX, ziboshishen.com, direct
+#DOMAIN-SUFFIX, sinaimg.cn, direct
+#DOMAIN-SUFFIX, pstatp.com, direct
+#DOMAIN-SUFFIX, newqiyu.com, direct
 
 ## Novel
 DOMAIN-SUFFIX, aixdzs.com, direct
@@ -38,27 +38,34 @@ DOMAIN-SUFFIX, aixdzs.com, direct
 ## Other
 DOMAIN-SUFFIX, wechat.com, direct
 DOMAIN-SUFFIX, pddpic.com, direct
+DOMAIN-SUFFIX, qpic.cn, direct
+
 DOMAIN-SUFFIX, ruanyifeng.com, direct
-DOMAIN-SUFFIX, uxcoffee.com, direct
-DOMAIN-SUFFIX, freemdict.com, direct
+DOMAIN-SUFFIX, yinsiduanxin.com, direct
 DOMAIN-SUFFIX, fuliba2020.net, direct
 DOMAIN-SUFFIX, banacg.com, direct
 DOMAIN-SUFFIX, haorenka.co, direct
-DOMAIN-SUFFIX, dashengpan.com, direct
-DOMAIN-SUFFIX, 114sim.com, direct
-###DOMAIN-SUFFIX, mintehao.com, direct
+
+#DOMAIN-SUFFIX, uxcoffee.com, direct
+#DOMAIN-SUFFIX, 114sim.com, direct
+#DOMAIN-SUFFIX, dashengpan.com, direct ;大圣盘
+#DOMAIN-SUFFIX, mintehao.com, direct ;1090 资源网
+#DOMAIN-SUFFIX, freemdict.com, direct
 
 # Apple 
-ip-cidr, 10.0.0.0/8, direct
 ip-cidr, 17.0.0.0/8, direct
-ip-cidr, 100.64.0.0/10, direct
-#ip-cidr, 127.0.0.0/8, direct #bitly, t.co
-ip-cidr, 172.16.0.0/12, direct
-ip-cidr, 192.168.0.0/16, direct
-ip-cidr, 224.0.0.0/24, direct
-ip6-cidr, fe80::/10, direct
 DOMAIN, ocsp.apple.com, REJECT
 DOMAIN-KEYWORD, apple.com, direct
+DOMAIN-SUFFIX,icloud.com,DIRECT
+
+#ip-cidr, 10.0.0.0/8, direct
+#ip-cidr, 17.0.0.0/8, direct
+#ip-cidr, 100.64.0.0/10, direct
+#ip-cidr, 172.16.0.0/12, direct
+#ip-cidr, 192.168.0.0/16, direct
+#ip-cidr, 224.0.0.0/24, direct
+#ip6-cidr, fe80::/10, direct
+#ip-cidr, 127.0.0.0/8, direct #bitly, t.co
 
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
