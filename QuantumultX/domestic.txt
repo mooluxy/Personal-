@@ -15,6 +15,9 @@ DOMAIN, ocsp.sectigo.com, reject
 ## Video
 DOMAIN-SUFFIX, 1090ys2.com, direct
 DOMAIN-SUFFIX, zxzj.me, direct
+DOMAIN-SUFFIX, ctyunapi.cn, direct
+DOMAIN-SUFFIX, sinaimg.cn, direct
+DOMAIN-SUFFIX, qrserver.com, direct
 DOMAIN-SUFFIX, ddrk.me, direct
 DOMAIN-SUFFIX, lencr.org, direct
 
@@ -24,11 +27,11 @@ DOMAIN-SUFFIX, lencr.org, direct
 #host-keyword, iqiyi.com, direct
 #host-keyword, bilibili.com, direct
 #host-keyword, pptv.com, direct
-#DOMAIN-SUFFIX, ctyunapi.cn, direct
+#
 #DOMAIN-SUFFIX, doubanio.com, direct
 #DOMAIN-SUFFIX, 952780.com, direct
 #DOMAIN-SUFFIX, ziboshishen.com, direct
-#DOMAIN-SUFFIX, sinaimg.cn, direct
+#
 #DOMAIN-SUFFIX, pstatp.com, direct
 #DOMAIN-SUFFIX, newqiyu.com, direct
 
