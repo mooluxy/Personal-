@@ -56,7 +56,6 @@ DOMAIN-SUFFIX, haorenka.co, direct
 #DOMAIN-SUFFIX, freemdict.com, direct
 
 # Apple 
-ip-cidr, 17.0.0.0/8, direct
 DOMAIN, ocsp.apple.com, REJECT
 DOMAIN-KEYWORD, apple.com, direct
 DOMAIN-SUFFIX,icloud.com,DIRECT
