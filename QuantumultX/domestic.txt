@@ -29,6 +29,7 @@ DOMAIN-SUFFIX, wechat.com, direct
 DOMAIN-SUFFIX, pddpic.com, direct
 DOMAIN-SUFFIX, qpic.cn, direct
 
+DOMAIN-SUFFIX, nextdns.io, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, yinsiduanxin.com, direct
 DOMAIN-SUFFIX, fuliba2020.net, direct
@@ -82,3 +83,4 @@ DOMAIN,splashqqlive.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN-SUFFIX,up-hl.3g.qq.com,direct
