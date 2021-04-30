@@ -1,9 +1,9 @@
 # Privary
+#DOMAIN, ocsp.sectigo.com, reject
 DOMAIN-SUFFIX, branch.io, reject
 DOMAIN-SUFFIX, cnzz.com, reject
 DOMAIN-SUFFIX, analytics.twitter.com, reject
 DOMAIN, safebrowsing.urlsec.qq.com, reject
-DOMAIN, ocsp.sectigo.com, reject
 
 # Domestic
 ## Video
