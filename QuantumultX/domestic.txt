@@ -4,32 +4,9 @@ DOMAIN-SUFFIX, branch.io, reject
 DOMAIN-SUFFIX, cnzz.com, reject
 DOMAIN-SUFFIX, analytics.twitter.com, reject
 DOMAIN, safebrowsing.urlsec.qq.com, reject
+DOMAIN, ocsp.apple.com, REJECT
 
 # Domestic
-## Video
-DOMAIN-SUFFIX, 1090ys2.com, direct
-DOMAIN-SUFFIX, zxzj.me, direct
-DOMAIN-SUFFIX, ctyunapi.cn, direct
-DOMAIN-SUFFIX, ddrk.me, direct
-DOMAIN-SUFFIX, qrserver.com, direct
-DOMAIN-SUFFIX, lencr.org, direct
-
-#DOMAIN-SUFFIX, sinaimg.cn, direct
-#
-#DOMAIN-SUFFIX, mls-cdn.com, direct
-#DOMAIN-SUFFIX, doubanio.com, direct
-#DOMAIN-SUFFIX, ziboshishen.com, direct
-#DOMAIN-SUFFIX, pstatp.com, direct
-#DOMAIN-SUFFIX, newqiyu.com, direct
-
-## Novel
-#DOMAIN-SUFFIX, aixdzs.com, direct
-
-## Other
-#DOMAIN-SUFFIX, wechat.com, direct
-#DOMAIN-SUFFIX, pddpic.com, direct
-#DOMAIN-SUFFIX, qpic.cn, direct
-
 DOMAIN-SUFFIX, nextdns.io, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, yinsiduanxin.com, direct
@@ -38,14 +15,34 @@ DOMAIN-SUFFIX, banacg.com, direct
 DOMAIN-SUFFIX, haorenka.co, direct
 DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
- # 大圣盘 
+
+## Video
+DOMAIN-SUFFIX, 1090ys2.com, direct
+DOMAIN-SUFFIX, zxzj.me, direct
+DOMAIN-SUFFIX, ctyunapi.cn, direct
+DOMAIN-SUFFIX, ddrk.me, direct
+DOMAIN-SUFFIX, qrserver.com, direct
+DOMAIN-SUFFIX, lencr.org, direct
+
+## Novel
+#DOMAIN-SUFFIX, aixdzs.com, direct
+
+## Other
+#DOMAIN-SUFFIX, wechat.com, direct
+#DOMAIN-SUFFIX, pddpic.com, direct
+#DOMAIN-SUFFIX, qpic.cn, direct
+#DOMAIN-SUFFIX, sinaimg.cn, direct
+#DOMAIN-SUFFIX, mls-cdn.com, direct
+#DOMAIN-SUFFIX, doubanio.com, direct
+#DOMAIN-SUFFIX, ziboshishen.com, direct
+#DOMAIN-SUFFIX, pstatp.com, direct
+#DOMAIN-SUFFIX, newqiyu.com, direct
+ # 大圣盘 1090 资源网
 #DOMAIN-SUFFIX, dashengpan.com, direct
- # 1090 资源网
 #DOMAIN-SUFFIX, mintehao.com, direct
 #DOMAIN-SUFFIX, freemdict.com, direct
 
 # Apple 
-DOMAIN, ocsp.apple.com, REJECT
 #DOMAIN-KEYWORD, apple.com, direct
 #DOMAIN-SUFFIX,icloud.com,DIRECT
 
