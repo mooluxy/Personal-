@@ -39,7 +39,7 @@ DOMAIN-SUFFIX, haorenka.co, direct
 DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
  # 大圣盘 
-$DOMAIN-SUFFIX, dashengpan.com, direct
+#DOMAIN-SUFFIX, dashengpan.com, direct
  # 1090 资源网
 #DOMAIN-SUFFIX, mintehao.com, direct
 #DOMAIN-SUFFIX, freemdict.com, direct
