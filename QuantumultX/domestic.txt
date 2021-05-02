@@ -81,4 +81,4 @@ DOMAIN,splashqqlive.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
-#DOMAIN-SUFFIX,up-hl.3g.qq.com,direct
+#DOMAIN-SUFFIX,weiyun.com,direct
