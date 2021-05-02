@@ -1,13 +1,13 @@
 # Privary
 #DOMAIN, ocsp.sectigo.com, reject
+#DOMAIN, safebrowsing.urlsec.qq.com, reject
 DOMAIN-SUFFIX, branch.io, reject
 DOMAIN-SUFFIX, cnzz.com, reject
 DOMAIN-SUFFIX, analytics.twitter.com, reject
-DOMAIN, safebrowsing.urlsec.qq.com, reject
 DOMAIN, ocsp.apple.com, REJECT
 
 # Domestic
-DOMAIN-SUFFIX, nextdns.io, direct
+#DOMAIN-SUFFIX, nextdns.io, direct
 DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, yinsiduanxin.com, direct
 DOMAIN-SUFFIX, fuliba2020.net, direct
@@ -29,8 +29,8 @@ DOMAIN-SUFFIX, lencr.org, direct
 
 ## Other
 #DOMAIN-SUFFIX, wechat.com, direct
-#DOMAIN-SUFFIX, pddpic.com, direct
-#DOMAIN-SUFFIX, qpic.cn, direct
+DOMAIN-SUFFIX, pddpic.com, direct
+DOMAIN-SUFFIX, qpic.cn, direct
 #DOMAIN-SUFFIX, sinaimg.cn, direct
 #DOMAIN-SUFFIX, mls-cdn.com, direct
 #DOMAIN-SUFFIX, doubanio.com, direct
@@ -46,15 +46,6 @@ DOMAIN-SUFFIX, lencr.org, direct
 DOMAIN-KEYWORD, apple.com, direct
 #DOMAIN-SUFFIX,icloud.com,DIRECT
 
-#ip-cidr, 10.0.0.0/8, direct
-#ip-cidr, 17.0.0.0/8, direct
-#ip-cidr, 100.64.0.0/10, direct
-#ip-cidr, 172.16.0.0/12, direct
-#ip-cidr, 192.168.0.0/16, direct
-#ip-cidr, 224.0.0.0/24, direct
-#ip6-cidr, fe80::/10, direct
-#ip-cidr, 127.0.0.0/8, direct #bitly, t.co
-
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
 DOMAIN-SUFFIX,118.89.204.198,REJECT
@@ -68,10 +59,7 @@ HOST,sugar.zhihu.com,reject
 HOST,mqtt.zhihu.com,reject
 
 # --- (Tencent) ---
-DOMAIN-SUFFIX,e.qq.com,REJECT
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
 DOMAIN,adsmind.gdtimg.com,REJECT
 DOMAIN,adsmind.tc.qq.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
@@ -81,4 +69,4 @@ DOMAIN,splashqqlive.gtimg.com,REJECT
 DOMAIN,wa.gtimg.com,REJECT
 DOMAIN,wxsnsdy.wxs.qq.com,REJECT
 DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
-#DOMAIN-SUFFIX,weiyun.com,direct
+DOMAIN-SUFFIX,weiyun.com,direct
