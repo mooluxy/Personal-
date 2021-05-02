@@ -43,7 +43,7 @@ DOMAIN-SUFFIX, lencr.org, direct
 #DOMAIN-SUFFIX, freemdict.com, direct
 
 # Apple 
-#DOMAIN-KEYWORD, apple.com, direct
+DOMAIN-KEYWORD, apple.com, direct
 #DOMAIN-SUFFIX,icloud.com,DIRECT
 
 #ip-cidr, 10.0.0.0/8, direct
