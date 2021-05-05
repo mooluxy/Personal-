@@ -75,6 +75,4 @@ HOST,mqtt.zhihu.com,reject
 DOMAIN-SUFFIX,weiyun.com,direct
 
 # LOL: Wild Rift
-host-suffix, riotcdn.net, direct
-host-suffix, pvp.net, direct
-host-suffix, riotgames.com, direct
+host,ekg.riotgames.com, direct
