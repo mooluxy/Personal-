@@ -1,8 +1,8 @@
 # Privary
 #DOMAIN, ocsp.sectigo.com, reject
 #DOMAIN, safebrowsing.urlsec.qq.com, reject
-DOMAIN-SUFFIX, branch.io, reject
-DOMAIN-SUFFIX, cnzz.com, reject
+#DOMAIN-SUFFIX, branch.io, reject
+#DOMAIN-SUFFIX, cnzz.com, reject
 DOMAIN-SUFFIX, analytics.twitter.com, reject
 DOMAIN, ocsp.apple.com, REJECT
 
@@ -44,7 +44,7 @@ DOMAIN-SUFFIX, qpic.cn, direct
 
 # Apple 
 DOMAIN-KEYWORD, apple.com, direct
-#DOMAIN-SUFFIX,icloud.com,DIRECT
+#DOMAIN-SUFFIX,icloud.com,direct
 
 # Zhihu Reject
 DOMAIN,118.89.204.198,REJECT
@@ -59,14 +59,14 @@ HOST,sugar.zhihu.com,reject
 HOST,mqtt.zhihu.com,reject
 
 # --- (Tencent) ---
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN,adsmind.gdtimg.com,REJECT
-DOMAIN,adsmind.tc.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pgdt.gtimg.com,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN,splashqqlive.gtimg.com,REJECT
-DOMAIN,wa.gtimg.com,REJECT
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+#DOMAIN-SUFFIX,gdt.qq.com,REJECT
+#DOMAIN,adsmind.gdtimg.com,REJECT
+#DOMAIN,adsmind.tc.qq.com,REJECT
+#DOMAIN,pgdt.gtimg.cn,REJECT
+#DOMAIN,pgdt.gtimg.com,REJECT
+#DOMAIN,pgdt.ugdtimg.com,REJECT
+#DOMAIN,splashqqlive.gtimg.com,REJECT
+#DOMAIN,wa.gtimg.com,REJECT
+#DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+#DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
 DOMAIN-SUFFIX,weiyun.com,direct
