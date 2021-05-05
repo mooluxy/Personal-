@@ -5,7 +5,7 @@
 #DOMAIN-SUFFIX, cnzz.com, reject
 DOMAIN-SUFFIX, analytics.twitter.com, reject
 DOMAIN, ocsp.apple.com, REJECT
-DOMAIN-SUFFIX, app-measurement.com, REJECT
+DOMAIN-SUFFIX, app-measurement.com, direct
 DOMAIN, metric-api.newrelic.com, REJECT
 DOMAIN, down.anticheatexpert.com, REJECT
 
