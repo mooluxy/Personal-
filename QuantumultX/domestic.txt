@@ -11,7 +11,7 @@ DOMAIN, down.anticheatexpert.com, REJECT
 
 # Domestic
 #DOMAIN-SUFFIX, nextdns.io, direct
-DOMAIN-SUFFIX, ruanyifeng.com, direct
+#DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, yinsiduanxin.com, direct
 DOMAIN-SUFFIX, fuliba2020.net, direct
 DOMAIN-SUFFIX, banacg.com, direct
