@@ -3,9 +3,9 @@
 #DOMAIN, safebrowsing.urlsec.qq.com, reject
 #DOMAIN-SUFFIX, branch.io, reject
 #DOMAIN-SUFFIX, cnzz.com, reject
-DOMAIN-SUFFIX, analytics.twitter.com, reject
+DOMAIN-SUFFIX, analytics.twitter.com, REJECT
 DOMAIN, ocsp.apple.com, REJECT
-DOMAIN-SUFFIX, app-measurement.com, direct
+DOMAIN-SUFFIX, app-measurement.com, REJECT
 DOMAIN, metric-api.newrelic.com, REJECT
 DOMAIN, down.anticheatexpert.com, REJECT
 
@@ -13,10 +13,7 @@ DOMAIN, down.anticheatexpert.com, REJECT
 #DOMAIN-SUFFIX, nextdns.io, direct
 #DOMAIN-SUFFIX, ruanyifeng.com, direct
 DOMAIN-SUFFIX, buzzing.cc, direct
-DOMAIN-SUFFIX, yinsiduanxin.com, direct
 DOMAIN-SUFFIX, fuliba2020.net, direct
-DOMAIN-SUFFIX, banacg.com, direct
-DOMAIN-SUFFIX, haorenka.co, direct
 DOMAIN-SUFFIX, uxcoffee.com, direct
 DOMAIN-SUFFIX, 114sim.com, direct
 
