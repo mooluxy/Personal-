@@ -1,13 +1,20 @@
 # Privary
-#DOMAIN, ocsp.sectigo.com, reject
-#DOMAIN, safebrowsing.urlsec.qq.com, reject
-#DOMAIN-SUFFIX, branch.io, reject
-#DOMAIN-SUFFIX, cnzz.com, reject
+DOMAIN, ocsp.sectigo.com, reject
+DOMAIN, safebrowsing.urlsec.qq.com, reject
+DOMAIN-SUFFIX, branch.io, reject
+DOMAIN-SUFFIX, cnzz.com, reject
 DOMAIN-SUFFIX, analytics.twitter.com, REJECT
 DOMAIN, ocsp.apple.com, REJECT
 DOMAIN-SUFFIX, app-measurement.com, REJECT
 DOMAIN, metric-api.newrelic.com, REJECT
 DOMAIN, down.anticheatexpert.com, REJECT
+vv.video.qq.com
+ocsp2.apple.com
+metrics.icloud.com
+soup.v.qq.com
+img.86uk.com
+wspeed.qq.com
+v.gdt.qq.com
 
 # Domestic
 #DOMAIN-SUFFIX, nextdns.io, direct
@@ -30,7 +37,7 @@ DOMAIN-SUFFIX, lencr.org, direct
 
 ## Other
 #DOMAIN-SUFFIX, wechat.com, direct
-DOMAIN-SUFFIX, pddpic.com, direct
+#DOMAIN-SUFFIX, pddpic.com, direct
 DOMAIN-SUFFIX, qpic.cn, direct
 #DOMAIN-SUFFIX, sinaimg.cn, direct
 #DOMAIN-SUFFIX, mls-cdn.com, direct
@@ -44,10 +51,9 @@ DOMAIN-SUFFIX, qpic.cn, direct
 #DOMAIN-SUFFIX, freemdict.com, direct
 
 # Apple 
-DOMAIN-KEYWORD, apple.com, direct
+#DOMAIN-KEYWORD, apple.com, direct
 #DOMAIN-SUFFIX,icloud.com,direct
 
-DOMAIN-SUFFIX,weiyun.com,direct
 
 # LOL: Wild Rift
 host,ekg.riotgames.com, direct
