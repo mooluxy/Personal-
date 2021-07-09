@@ -8,13 +8,36 @@ DOMAIN, ocsp.apple.com, REJECT
 DOMAIN-SUFFIX, app-measurement.com, REJECT
 DOMAIN, metric-api.newrelic.com, REJECT
 DOMAIN, down.anticheatexpert.com, REJECT
-vv.video.qq.com
-ocsp2.apple.com
-metrics.icloud.com
-soup.v.qq.com
-img.86uk.com
-wspeed.qq.com
-v.gdt.qq.com
+DOMAIN,ocsp2.apple.com, REJECT
+DOMAIN,metrics.icloud.com, REJECT
+
+# Zhihu Reject
+DOMAIN,118.89.204.198,REJECT
+DOMAIN-SUFFIX,118.89.204.198,REJECT
+DOMAIN-KEYWORD,118.89.204.198,REJECT
+IP-CIDR,118.89.204.198/32,REJECT
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
+USER-AGENT,AVOS*,REJECT
+DOMAIN-SUFFIX,appcloud2.zhihu.com,REJECT
+DOMAIN-SUFFIX,appcloud2.in.zhihu.com,REJECT
+HOST,sugar.zhihu.com,reject
+HOST,mqtt.zhihu.com,reject
+
+# --- (Tencent) ---
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,adsmind.tc.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,pgdt.gtimg.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN,splashqqlive.gtimg.com,REJECT
+DOMAIN,wa.gtimg.com,REJECT
+DOMAIN,wxsnsdy.wxs.qq.com,REJECT
+DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
+DOMAIN,soup.v.qq.com, REJECT
+DOMAIN,img.86uk.com, REJECT
+DOMAIN,wspeed.qq.com, REJECT
+DOMAIN,vv.video.qq.com, REJECT
 
 # Domestic
 #DOMAIN-SUFFIX, nextdns.io, direct
